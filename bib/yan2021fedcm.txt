@@ -1,0 +1,9 @@
+@INPROCEEDINGS{9534451,
+  author={Yan, Bingjie and Liu, Boyi and Wang, Lujia and Zhou, Yize and Liang, Zhixuan and Liu, Ming and Xu, Cheng-Zhong},
+  booktitle={2021 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={FedCM: A Real-time Contribution Measurement Method for Participants in Federated Learning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/IJCNN52387.2021.9534451}}
