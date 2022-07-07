@@ -258,7 +258,7 @@ table.pub-table,
 td.pub-td1,
 td.pub-td2,
 td.pub-td {
-    padding: 8px;
+    padding: 0px 8px;
     /* width: 860px; */
     border-collapse: separate;
     border-spacing: 15px;
