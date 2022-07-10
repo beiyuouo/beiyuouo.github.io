@@ -28,6 +28,14 @@
       gtag("config", "G-PRK0FMMDH1");
     </script>
 
+    <!-- import jquery -->
+    <script
+      type="text/javascript"
+      src="../assets/js/jquery-3.6.0.min.js"
+    ></script>
+    <script type="text/javascript" src="../assets/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+
     <!-- <script data-ad-client="ca-pub-7298119761242775" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7298119761242775" crossorigin="anonymous"></script> -->
     <base target="_blank" />
@@ -35,21 +43,27 @@
   <!-- <meta charset="UTF-8"> -->
 
   <body>
-    <!-- <div id="top-nav">
-<b>Yan Bingjie</b>
-
-</div> -->
-    <!-- <div id="lang-nav" style="text-align: right">
-      <a href="zh.html" target="_self">切换至中文</a>
-    </div> -->
-    <div id="layout-content" style="margin-top: 25px">
-      <p>In processing</p>
+    <div id="lang-nav" style="text-align: right">
+      <a href="/" target="_self" class="lang-en">Back to Home</a>
+      <a href="/" target="_self" class="lang-zh">回到首页</a>
+      <span>|</span>
+      <!-- lang switch -->
+      <a href="javascript:;" onclick="changeLanguage()" target="_self">
+        <span class="lang-en">切换至中文</span>
+        <span class="lang-zh">Switch to English</span>
+      </a>
     </div>
+    <div>In progress...</div>
   </body>
   <footer>
-    <div id="footer">
-      Last updated on 2022.07.07 - Copyright<a
+    <div id="footer" class="lang-en">
+      Last updated on 2022.07.11 - Copyright<a
         href="https://github.com/beiyuouo"
+        >@BJ. Yan</a
+      >
+    </div>
+    <div id="footer" class="lang-zh">
+      最后更新于 2022.07.11 - Copyright<a href="https://github.com/beiyuouo"
         >@BJ. Yan</a
       >
     </div>

@@ -290,3 +290,7 @@ p.text-indent {
     padding-top: 0.5em;
     font-size: 125%;
 }
+
+.lang-nav a {
+    float: right;
+}
