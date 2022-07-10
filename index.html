@@ -3,7 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bingjie YAN</title>
+    <title class="lang-en">Bingjie YAN</title>
+    <title class="lang-zh">闫 冰洁 (Bingjie YAN)</title>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <script>
       var _hmt = _hmt || [];
@@ -28,6 +29,11 @@
       gtag("config", "G-PRK0FMMDH1");
     </script>
 
+    <!-- import jquery -->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
     <!-- <script data-ad-client="ca-pub-7298119761242775" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
     <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7298119761242775" crossorigin="anonymous"></script> -->
     <base target="_blank" />
@@ -40,7 +46,11 @@
 
 </div> -->
     <div id="lang-nav" style="text-align: right">
-      <a href="zh" target="_self">切换至中文</a>
+      <!-- lang switch -->
+      <a href="javascript:;" onclick="changeLanguage()" target="_self">
+        <p class="lang-en">切换至中文</p>
+        <p class="lang-zh">Switch to English</p>
+      </a>
     </div>
     <div id="layout-content" style="margin-top: 25px">
       <table>
@@ -51,29 +61,12 @@
             </td>
             <td width="65%">
               <div class="bio">
-                <h1 class="name">Bingjie YAN<br /></h1>
+                <h1 class="name lang-en">Bingjie YAN<br /></h1>
+                <h1 class="name lang-zh">闫 冰洁 (Bingjie YAN)<br /></h1>
                 <p class="text-center">
                   bj [dot] yan [dot] pa [at] qq [dot] com
                 </p>
-                <p>
-                  I am a postgraduate student in Computer Science
-                  <a href="http://www.ict.cas.cn/"
-                    >@Institute of Computing Technology, Chinese Academy of
-                    Sciences</a
-                  >, under the supervision of Prof.
-                  <a
-                    href="https://scholar.google.com/citations?user=LC3SwhEAAAAJ&hl=en&authuser=1&oi=ao"
-                    >Yiqiang Chen</a
-                  >.
-                </p>
-                <p>
-                  My current research interests focus on federated learning,
-                  edge computing, and distributed systems.
-                </p>
-                <p>
-                  Please feel free to send me an email, if you have any
-                  questions. I'd like to communicate with you.
-                </p>
+
                 <p class="text-center">
                   <b>Email: </b>
                   <a href="mailto:bj.yan.pa@qq.com">bj.yan.pa@qq.com</a> or
@@ -110,18 +103,47 @@
           <tr></tr>
         </tbody>
       </table>
-      <br />
-      <!-- <h2>Biography</h2>
-      <p>
-        I am an undergraduate student from School of Computer Science and
-        Technology, Hainan University. My research interests in federated
-        learning and edge computing. Also, I'm interested in meta-learning,
-        computer vision, medical image, reinforcement learning and robotics.
-      </p> -->
+      <!-- Biography -->
+      <!-- English version -->
+      <div class="bio lang-en">
+        <h2>Biography</h2>
+        <p>
+          I am a postgraduate student in Computer Science
+          <a href="http://www.ict.cas.cn/"
+            >@Institute of Computing Technology, Chinese Academy of Sciences</a
+          >, under the supervision of Prof.
+          <a
+            href="https://scholar.google.com/citations?user=LC3SwhEAAAAJ&hl=en&authuser=1&oi=ao"
+            >Yiqiang Chen</a
+          >.
+        </p>
+        <p>
+          My current research interests focus on federated learning, edge
+          computing, and distributed systems.
+        </p>
+        <p>
+          Please feel free to send me an email, if you have any questions. I'd
+          like to communicate with you.
+        </p>
+      </div>
+      <!-- Chinese version -->
+      <div class="bio lang-zh">
+        <h2>个人简介</h2>
+        <p>
+          我本科在海南大学软件工程专业就读，现在是
+          <a href="http://www.ict.cas.cn/">@中科院计算所</a>
+          的一名在读硕士生。
+        </p>
+        <p>我的研究兴趣主要集中在联邦学习、边缘计算和分布式系统。</p>
+        <p>
+          如果您有任何问题可以直接发邮件给我，欢迎与我交流，我非常乐意和你交朋友。
+        </p>
+      </div>
 
-      <h2>Education</h2>
       <!-- Education -->
-      <div class="education">
+      <!-- English version-->
+      <div class="education lang-en">
+        <h2>Education</h2>
         <p>
           <b>[2022.09 - present]</b> M.E. in Electronic Information,
           <a href="http://www.ict.cas.cn/"
@@ -133,41 +155,88 @@
           <a href="https://www.hainanu.edu.cn/">@Hainan University</a>
         </p>
       </div>
+
+      <!-- Chinese version -->
+      <div class="education lang-zh">
+        <h2>教育经历</h2>
+        <p>
+          <b>[2022.09 - 至今]</b>
+          <a href="http://www.ict.cas.cn/">@中国科学院计算技术研究所</a
+          >，计算机科学与技术学院，电子信息，工学硕士
+        </p>
+        <p>
+          <b>[2018.09 - 2022.06]</b>
+          <a href="https://www.hainanu.edu.cn/">@海南大学</a
+          >，计算机科学与技术学院，软件工程，工学学士
+        </p>
+      </div>
       <!-- <del>
         <p>
           <u><b>I am looking for a Ph.D position.</b></u>
         </p>
       </del> -->
-      <br />
-      <h2>News</h2>
-      <div style="overflow-y: auto; padding-right: 1px; max-height: 300px">
-        <ul>
-          <!-- <h2 class="news-title">2021</h2> -->
-          <li>
-            <strong>[Jun. 2022]</strong> I graduated from
-            <a href="https://www.hainanu.edu.cn/">@Hainan University</a> and
-            will go to the
-            <a href="http://www.ict.cas.cn/"
-              >@Institute of Computing Technology, Chinese Academy of
-              Sciences</a
-            >
-            for my master's degree
-          </li>
-          <li>
-            <strong>[Apr. 2021]</strong> Our paper "FedCM: A Real-time
-            Contribution Measurement Method for Participants in Federated
-            Learning" was accepted by IJCNN 2021(CCF-C)
-          </li>
-          <li>
-            <strong>[Nov. 2020]</strong> Our paper "Experiments of Federated
-            Learning for COVID-19 Chest X-ray Images" was accepted by ICAIS 2021
-          </li>
-        </ul>
+
+      <!-- News -->
+      <!-- English version -->
+      <div class="news lang-en">
+        <h2>News</h2>
+        <div style="overflow-y: auto; padding-right: 1px; max-height: 300px">
+          <ul>
+            <!-- <h2 class="news-title">2021</h2> -->
+            <li>
+              <strong>[Jun. 2022]</strong> I graduated from
+              <a href="https://www.hainanu.edu.cn/">@Hainan University</a> and
+              will go to the
+              <a href="http://www.ict.cas.cn/"
+                >@Institute of Computing Technology, Chinese Academy of
+                Sciences</a
+              >
+              for my master's degree
+            </li>
+            <li>
+              <strong>[Apr. 2021]</strong> Our paper "FedCM: A Real-time
+              Contribution Measurement Method for Participants in Federated
+              Learning" was accepted by IJCNN 2021(CCF-C)
+            </li>
+            <li>
+              <strong>[Nov. 2020]</strong> Our paper "Experiments of Federated
+              Learning for COVID-19 Chest X-ray Images" was accepted by ICAIS
+              2021
+            </li>
+          </ul>
+        </div>
       </div>
-      <br />
-      <h2>Selected Publications</h2>
+
+      <!-- Chinese version -->
+      <div class="news lang-zh">
+        <h2>最近动态</h2>
+        <div style="overflow-y: auto; padding-right: 1px; max-height: 300px">
+          <ul>
+            <!-- <h2 class="news-title">2021</h2> -->
+            <li>
+              <strong>[Jun. 2022]</strong> 我从
+              <a href="https://www.hainanu.edu.cn/">@海南大学</a> 毕业，将前往
+              <a href="http://www.ict.cas.cn/">@中国科学院计算技术研究所</a>
+              攻读我的硕士学位，雁栖湖见！
+            </li>
+            <li>
+              <strong>[Apr. 2021]</strong> 我们的论文 "FedCM: A Real-time
+              Contribution Measurement Method for Participants in Federated
+              Learning" 被 IJCNN 2021(CCF-C) 接收
+            </li>
+            <li>
+              <strong>[Nov. 2020]</strong> 我们的论文 "Experiments of Federated
+              Learning for COVID-19 Chest X-ray Images" 被 ICAIS 2021 接收
+            </li>
+          </ul>
+        </div>
+      </div>
+
       <!-- Publications -->
-      <h3>Papers</h3>
+      <h2 class="lang-en">Selected Publications</h2>
+      <h2 class="lang-zh">成果</h2>
+      <h3 class="lang-en">Papers</h3>
+      <h3 class="lang-zh">发表论文</h3>
       <table class="pub-table">
         <tbody>
           <i><p class="text-indent">* __ for equal contribution</p></i>
@@ -229,35 +298,87 @@
         </tbody>
       </table>
 
-      <h3>Patents</h3>
       <!-- Patents -->
+      <h3 class="lang-en">Patents</h3>
+      <h3 class="lang-zh">申请专利</h3>
 
-      <h2>Experience</h2>
       <!-- Experience -->
-      <h2>Projects</h2>
-      <i>
-        <p class="text-indent">
-          Only some representative projects will be shown here, please see
-          <a href="projects/">project homepage</a> for more details.
-        </p>
-      </i>
+      <!-- English version -->
+      <div class="experience lang-en">
+        <h2>Experience</h2>
+      </div>
+      <!-- Chinese version -->
+      <div class="experience lang-zh">
+        <h2>实习经历</h2>
+      </div>
+
       <!-- Projects -->
-      <h2>Awards & Honors</h2>
+      <!-- English version -->
+      <div class="project lang-en">
+        <h2>Projects</h2>
+
+        <i>
+          <p class="text-indent">
+            Only some representative projects will be shown here, please see
+            <a href="projects/">project homepage</a> for more details.
+          </p>
+        </i>
+      </div>
+      <!-- Chinese version -->
+      <div class="project lang-zh">
+        <h2>项目经历</h2>
+        <i>
+          <p class="text-indent">
+            只有部分具有代表性的项目会在这里展示，其他项目请参见<a
+              href="projects/"
+              >项目主页</a
+            >。
+          </p>
+        </i>
+      </div>
+
       <!-- Awards -->
-      <h2>Membership</h2>
+      <!-- English version -->
+      <div class="award lang-en">
+        <h2>Awards & Honors</h2>
+      </div>
+      <!-- Chinese version -->
+      <div class="award lang-zh">
+        <h2>奖项 & 荣誉</h2>
+      </div>
+
       <!-- Membership -->
-      <p><b>President</b> of IEEE Hainan University Branch.</p>
-      <p>
-        <b>Co-Founder</b> of Association of Robotics and Artificial Intelligence
-        and <b>Vice president</b> of Cyberspace Security Association in
-        <a href="https://www.hainanu.edu.cn/">@Hainan University</a>.
-      </p>
+      <!-- English version -->
+      <div class="membership lang-en">
+        <h2>Membership</h2>
+        <p><b>President</b> of IEEE Hainan University Branch.</p>
+        <p>
+          <b>Co-Founder</b> of Association of Robotics and Artificial
+          Intelligence and <b>Vice president</b> of Cyberspace Security
+          Association in
+          <a href="https://www.hainanu.edu.cn/">@Hainan University</a>.
+        </p>
+      </div>
+      <!-- Chinese version -->
+      <div class="membership lang-zh">
+        <h2>任职经历</h2>
+        <p>IEEE 海南大学学生分会<b>主席</b></p>
+        <p>
+          <a href="https://www.hainanu.edu.cn/">@海南大学</a>
+          机器人与人工智能协会<b>联合发起人</b>，网络空间安全协会<b>副会长</b>
+        </p>
+      </div>
     </div>
   </body>
   <footer>
-    <div id="footer">
-      Last updated on 2022.07.09 - Copyright<a
+    <div id="footer" class="lang-en">
+      Last updated on 2022.07.11 - Copyright<a
         href="https://github.com/beiyuouo"
+        >@BJ. Yan</a
+      >
+    </div>
+    <div id="footer" class="lang-zh">
+      最后更新于 2022.07.11 - Copyright<a href="https://github.com/beiyuouo"
         >@BJ. Yan</a
       >
     </div>
