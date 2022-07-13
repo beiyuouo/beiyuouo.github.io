@@ -294,3 +294,89 @@ p.text-indent {
 .lang-nav a {
     float: right;
 }
+
+.project-group {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.project-item {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* width: 30%; */
+    height: min(100%, 200px);
+    /* background-size: cover; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-left: 1%;
+    display: inline-block;
+    max-height: 200px;
+    /* display:inline; */
+    /* zoom:1; */
+}
+
+.project-item img {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    height: 100%;
+    width: 100%;
+}
+
+.project-item:hover, .project-item:focus, .project-item:active {
+    box-shadow: -10px 0px 30px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    /* border-radius: 5px; */
+    /* border: 1px solid #ccc; */
+}
+.project-item-info {
+    margin-top: 10em;
+    margin-bottom: 0.5em;
+    background-color: #fff;
+    text-overflow: clip;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* height: 50%; */
+    max-height: 200px;
+    width: 300px;
+}
+
+.project-item-info img {
+    /* width: 50px; */
+    height: 18px;
+    width: auto;
+    border-radius: 0px;
+    margin: 0;
+    /* margin-top: 0.3em; */
+    margin-left: 0.3em;
+    /* padding-top: 0.3em; */
+}
+
+.project-item h4 {
+    font-size: 125%;
+    font-weight: bold;
+    color: #000;
+    border-bottom: solid 1px transparent;
+    margin: 0%;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-right: 1em;
+    line-height: 1.2;
+}
+
+.project-item p {
+    color: rgba(0,0,0,0.54);
+    font-size: 0.75rem;
+    margin-left: 3em;
+    margin-right: 3em;
+    /* duanhang */
+    word-break: break-all;
+    /* text-indent: 1em; */
+}
