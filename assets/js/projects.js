@@ -21,28 +21,12 @@ var project_data = [
           "https://img.shields.io/github/stars/beiyuouo/arxiv-daily?style=flat-square",
       },
       {
-        name: "hainanu-course-comments",
-        description: "🎩 海南大学课程攻略共享计划！",
-        url: "https://github.com/beiyuouo/hainanu-course-comments",
-        tags: ["document", "python", "mkdocs"],
-        badge:
-          "https://img.shields.io/github/stars/beiyuouo/hainanu-course-comments?style=flat-square",
-      },
-      {
         name: "hcaptcha-model-factory",
         description: "🏗 hCAPTCHA binary classification model factory",
         url: "https://github.com/beiyuouo/hcaptcha-model-factory",
         tags: ["deep-learning", "python", "hcaptcha"],
         badge:
           "https://img.shields.io/github/stars/beiyuouo/hcaptcha-model-factory?style=flat-square",
-      },
-      {
-        name: "awesome-AFL",
-        description: "📦 Collect some Asynchronous Federated Learning papers",
-        url: "https://github.com/beiyuouo/awesome-asynchronous-federated-learning",
-        tags: ["deep-learning", "federated-learning", "python"],
-        badge:
-          "https://img.shields.io/github/stars/beiyuouo/awesome-asynchronous-federated-learning?style=flat-square",
       },
       {
         name: "ezkfg",
@@ -93,6 +77,9 @@ var project_data = [
         badge:
           "https://img.shields.io/github/stars/QIN2DIM/hcaptcha-challenger?style=flat-square",
       },
+    ],
+    "其他项目|Other Projects": [],
+    "Awesome List|Awesome List": [
       {
         name: "Hainanu-Application",
         description: "📘 海南大学飞跃手册",
@@ -101,8 +88,23 @@ var project_data = [
         badge:
           "https://img.shields.io/github/stars/Hainanu-Application/Hainanu-Application.github.io?style=flat-square",
       },
+      {
+        name: "awesome-AFL",
+        description: "📦 Collect some Asynchronous Federated Learning papers",
+        url: "https://github.com/beiyuouo/awesome-asynchronous-federated-learning",
+        tags: ["deep-learning", "federated-learning", "python"],
+        badge:
+          "https://img.shields.io/github/stars/beiyuouo/awesome-asynchronous-federated-learning?style=flat-square",
+      },
+      {
+        name: "hainanu-course-comments",
+        description: "🎩 海南大学课程攻略共享计划！",
+        url: "https://github.com/beiyuouo/hainanu-course-comments",
+        tags: ["document", "python", "mkdocs"],
+        badge:
+          "https://img.shields.io/github/stars/beiyuouo/hainanu-course-comments?style=flat-square",
+      },
     ],
-    "其他项目|Other Projects": [],
   },
 ];
 
