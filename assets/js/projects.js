@@ -81,6 +81,15 @@ var project_data = [
     "其他项目|Other Projects": [],
     "Awesome List|Awesome List": [
       {
+        name: "Awesome-Federated-Learning-on-Graph-and-Tabular-Data",
+        description:
+          "Federated learning on graph and tabular data related papers, frameworks, and datasets.",
+        url: "https://github.com/youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data",
+        tags: ["federated-learning", "python", "github-pages"],
+        badge:
+          "https://img.shields.io/github/stars/youngfish42/Awesome-Federated-Learning-on-Graph-and-Tabular-Data?style=flat-square",
+      },
+      {
         name: "Hainanu-Application",
         description: "📘 海南大学飞跃手册",
         url: "https://github.com/Hainanu-Application/Hainanu-Application.github.io",
