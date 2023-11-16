@@ -1,2 +1,1 @@
-@REM npm i -g http-server
-http-server ./
+python -m http.server --directory ./
