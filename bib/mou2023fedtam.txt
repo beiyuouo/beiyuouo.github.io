@@ -1,0 +1,8 @@
+@inproceedings{mou2023fedtam,
+  title={FedTAM: Decentralized Federated Learning with a Feature Attention Based Multi-teacher Knowledge Distillation for Healthcare},
+  author={Mou, Tingting and Jiang, Xinlong and Li, Jie and Yan, Bingjie and Chen, Qian and Zhang, Teng and Huang, Wuliang and Gao, Chenlong and Chen, Yiqiang},
+  booktitle={2023 IEEE 29th International Conference on Parallel and Distributed Systems (ICPADS)},
+  pages={1246--1253},
+  year={2023},
+  organization={IEEE}
+}

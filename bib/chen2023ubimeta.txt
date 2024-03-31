@@ -1,0 +1,10 @@
+@article{chen2023ubimeta,
+  title={UbiMeta: A Ubiquitous Operating System Model for Metaverse},
+  author={Chen, Yiqiang and Huang, Wuliang and Jiang, Xinlong and Zhang, Teng and Wang, Yi and Yan, Bingjie and Wang, Zhirui and Chen, Qian and Xing, Yunbing and Li, Dong and others},
+  journal={International Journal of Crowd Science},
+  volume={7},
+  number={4},
+  pages={180--189},
+  year={2023},
+  publisher={TUP}
+}
