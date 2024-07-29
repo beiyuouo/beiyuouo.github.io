@@ -1,0 +1,6 @@
+@inproceedings{huang2024correlation,
+  title={Correlation-Driven Multi-Modality Graph Decomposition for Cross-Subject Emotion Recognition},
+  author={Huang, Wuliang and Chen, Yiqiang and Jiang, Xinlong and Gao, Chenlong and Chen, Qian and Zhang, Teng and Yan, Bingjie and Wang, Yifan and Yang, Jianrong},
+  booktitle={ACM Multimedia 2024}
+}
+
