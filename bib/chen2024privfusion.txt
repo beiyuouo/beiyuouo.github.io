@@ -1,0 +1,10 @@
+@ARTICLE{10643309,
+  author={Chen, Qian and Chen, Yiqiang and Jiang, Xinlong and Zhang, Teng and Dai, Weiwei and Huang, Wuliang and Yan, Bingjie and Yan, Zhen and Lu, Wang and Ye, Bo},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={PrivFusion: Privacy-Preserving Model Fusion via Decentralized Federated Graph Matching}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Adaptation models;Data models;Privacy;Load modeling;Biological neural networks;Collaboration;Predictive models;Model fusion;model privacy;graph matching},
+  doi={10.1109/TKDE.2024.3430819}}
