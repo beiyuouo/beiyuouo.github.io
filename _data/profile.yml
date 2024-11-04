@@ -1,0 +1,92 @@
+primary_name: "Bingjie Yan"
+secondary_name: ""
+navbar_name: "Bingjie Yan"
+
+positions:
+- logo: /assets/images/badges/ict.png  # Logo is optional
+  name: Institute of Computing Technology, Chinese Academy of Sciences
+# - name: Position 2 without logo
+
+
+email: "bj.yan@ieee.org"
+# cv_link: link-to-your-cv-file
+gscholar: DVsgN1sAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: beiyuouo
+twitter: beiyu233  # Do not include the '@' symbol
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+linkedin: bingjie-yan-ba968118b
+# orcid: 0000-0000-0000-0000
+bilibili: https://space.bilibili.com/23511429
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>I am a final-year master's student majoring in Computer Science <a href="http://www.ict.cas.cn/"
+  >@Institute of Computing Technology, Chinese Academy of Sciences</a>, under the supervision of Prof.
+    <a
+      href="https://scholar.google.com/citations?user=LC3SwhEAAAAJ&hl=en&authuser=1&oi=ao"
+      >Yiqiang Chen</a
+    > and Prof. <a href="https://scholar.google.com/citations?user=zMyg3vcAAAAJ&hl=en&oi=ao">Xinlong Jiang</a>.
+    Before that, I received my B. Eng. degree in Software Engineering from <a href="https://www.hainanu.edu.cn/">@Hainan University</a>.
+  </p>
+  <p>
+    <b>Research Interests:</b> <br />
+    ⚡ <b>AI4Science:</b> Medical Image Analysis, Radiology and Biomedical Imaging, Computational Biology. <br />
+    ⚡ <b>Foundation Model:</b> Vision-Language Model, Collaboration of Large and Small Models, Privacy \& Security of LLMs. <br />
+    ⚡ <b>Federated Learning:</b> Trustworthy, Privacy-preserving, Heterogeneity, and FL Application in Medical \& Healthcare. <br />
+    ⚡ <b>Optimization:</b> Distributed Optimization, Online Convex Optimization, Long-term Constraints <br />
+  </p>
+  <p>
+    Please feel free to send me an email, if you have any questions. I'd
+    like to communicate with you.
+  </p>
+  
+  <p>
+    <font color="#FF0000"><b>I am looking for a Ph.D position in 2025 fall, please contact me if you are interested in me!</b></font>
+  </p>
+
+  </p>
+
+portrait_url: /assets/images/photos/ybj_hmt.jpeg
+# portrait_caption: >-
+#   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+
+education:
+- name: Institute of Computing Technology, Chinese Academy of Sciences
+  logo: /assets/images/badges/ict.png
+  position: >- 
+    Master Student
+  date: Sep. 2022 - present
+- name: Hainan University
+  logo: /assets/images/badges/hainan.png
+  position: B.S. in Software Engineering
+  date: Sep. 2018 - Jul. 2022
+
+experience:
+# - name: Institute of AI Industry Research, Tsinghua University
+  # logo: /assets/images/badges/aiir.png
+  # position: Research Intern
+  # date: Jul. 2024 - Oct. 2024
+- name: Hong Kong Baptist University
+  # logo: /assets/images/badges/hkbu.png
+  position: Research Assistant
+  date: Jun. 2024 - Jul. 2024
+- name: FedML Inc.
+  # logo: 
+  position: Remote Research Intern
+  date: Jun. 2022 - Sep. 2022
+
+
+# awards:
+
+services:
+- name: IEEE Hainan University Branch
+  position: President
+  date: Mar. 2021 - Jun. 2022
+- name: Association of Robotics and Artificial Intelligence
+  position: Co-Founder & Vice President
+  date: Jul. 2020 - Jun. 2022
+- name: Cyberspace Security Association @Hainan University
+  position: Vice President
+  date: Sep. 2020 - Jun. 2021
