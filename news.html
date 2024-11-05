@@ -1,0 +1,10 @@
+---
+layout: default
+title : News
+navbar_title: News
+body_attr: >-
+  data-spy="scroll" data-target="#navbar-year" data-offset="100"
+---
+
+{% assign news_size = site.news | size %}
+{% include widgets/news_card.html limit=news_size %}
