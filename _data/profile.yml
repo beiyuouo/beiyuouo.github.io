@@ -32,7 +32,7 @@ short_bio: >-
   </p>
   <p>
     <b>Research Interests:</b> <br />
-    ⚡ <b>AI4Science:</b> Medical Image Analysis, Radiology and Biomedical Imaging, Computational Biology. <br />
+    ⚡ <b>AI4Medical & Healthcare:</b> Medical Image Analysis, Radiology and Biomedical Imaging, Computational Biology. <br />
     ⚡ <b>Foundation Model:</b> Vision-Language Model, Collaboration of Large and Small Models, Privacy & Security of LLMs. <br />
     ⚡ <b>Federated Learning:</b> Trustworthy, Privacy-preserving, Heterogeneity, and FL Application in Medical & Healthcare. <br />
     ⚡ <b>Optimization:</b> Distributed Optimization, Online Convex Optimization, Long-term Constraints <br />
@@ -78,7 +78,12 @@ experience:
   date: Jun. 2022 - Sep. 2022
 
 
-# awards:
+awards:
+- name: <font color="#FF0000"><b>National Scholarship (3%)</b></font>
+  date: 2024
+- name: Outstanding Graduate of Hainan University
+  date: 2022
+
 
 services:
 - name: IEEE Hainan University Branch
