@@ -23,4 +23,5 @@ authors:
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10597838/
   Bib: bib/chen2024modeltrip.txt
+  Code: https://github.com/beiyuouo/ModelTrip
 ---
